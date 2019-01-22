@@ -1,0 +1,117 @@
+EESchema Schematic File Version 4
+LIBS:simic2matrix-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L custom:Simic_Infineon U2
+U 1 1 5C05A438
+P 3900 3250
+F 0 "U2" H 3900 3725 50  0000 C CNN
+F 1 "Simic_Infineon" H 3900 3634 50  0000 C CNN
+F 2 "Roboy_mod:IM69D130_Simic_uPhone" H 3900 3250 50  0001 C CNN
+F 3 "" H 3900 3250 50  0001 C CNN
+	1    3900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5C05D466
+P 3700 3850
+F 0 "#PWR0101" H 3700 3600 50  0001 C CNN
+F 1 "GND" H 3705 3677 50  0000 C CNN
+F 2 "" H 3700 3850 50  0001 C CNN
+F 3 "" H 3700 3850 50  0001 C CNN
+	1    3700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5C05D4F4
+P 3700 2500
+F 0 "#PWR0102" H 3700 2250 50  0001 C CNN
+F 1 "GND" H 3705 2327 50  0000 C CNN
+F 2 "" H 3700 2500 50  0001 C CNN
+F 3 "" H 3700 2500 50  0001 C CNN
+	1    3700 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1650 3250 1650
+Wire Wire Line
+	3250 1650 3250 3000
+Wire Wire Line
+	3250 3000 3450 3000
+Wire Wire Line
+	3450 1750 3350 1750
+Wire Wire Line
+	3350 1750 3350 3100
+Wire Wire Line
+	3350 3100 3450 3100
+Wire Wire Line
+	4350 3000 4600 3000
+Wire Wire Line
+	4600 3000 4600 1650
+Wire Wire Line
+	4600 1650 4350 1650
+Wire Wire Line
+	4350 1750 4500 1750
+Wire Wire Line
+	4500 1750 4500 3100
+Wire Wire Line
+	4500 3100 4350 3100
+Wire Wire Line
+	3700 2500 3700 2400
+Wire Wire Line
+	3700 3850 3700 3750
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C05D7F8
+P 3100 1650
+F 0 "#FLG0101" H 3100 1725 50  0001 C CNN
+F 1 "PWR_FLAG" H 3100 1824 50  0000 C CNN
+F 2 "" H 3100 1650 50  0001 C CNN
+F 3 "~" H 3100 1650 50  0001 C CNN
+	1    3100 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1650 3250 1650
+Connection ~ 3250 1650
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5C05D8D6
+P 3950 2500
+F 0 "#FLG0102" H 3950 2575 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 2674 50  0000 C CNN
+F 2 "" H 3950 2500 50  0001 C CNN
+F 3 "~" H 3950 2500 50  0001 C CNN
+	1    3950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2500 3700 2500
+Connection ~ 3700 2500
+$Comp
+L custom:MP34DB02 U1
+U 1 1 5C074418
+P 3900 1900
+F 0 "U1" H 3900 2375 50  0000 C CNN
+F 1 "MP34DB02" H 3900 2284 50  0000 C CNN
+F 2 "Roboy_mod:MP34DB02_chip_side_nocage" H 3900 1900 50  0001 C CNN
+F 3 "" H 3900 1900 50  0001 C CNN
+	1    3900 1900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
